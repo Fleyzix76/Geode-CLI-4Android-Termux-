@@ -21,10 +21,10 @@ And we run the binary:
 ```bash
 ./geode
 ```
-You will see the bash```geode``` commands 
+You will see the ```geode``` commands 
 
 # Usage
-After installing Geode CLI, you can create your own mod, but instead of bash```geode``` you will need to use bash```./geode```
+After installing Geode CLI, you can create your own mod, but instead of ```geode``` you will need to use ```./geode```
 
 ```bash
 # Without ./
@@ -35,5 +35,7 @@ geode build❌️
 ./geode new✅️
 ./geode build✅️
 ```
+# Problems
+I can't compile Geode CLI for ARM32 (ARMv7), so this method is only available for ARM64 (aarch64)😭
 
 (I am not responsible for problems with Android NDK )
