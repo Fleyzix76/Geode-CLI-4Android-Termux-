@@ -24,7 +24,7 @@ And we run the binary:
 You will see the ```geode``` commands 
 
 # Usage
-After installing Geode CLI, you can create your own mod, but instead of ```geode``` you will need to use ```./geode```
+After installing Geode CLI, you can create your own mod, following the instructions from [Geode Docs](https://docs.geode-sdk.org), but instead of ```geode``` you will need to use ```./geode```
 
 ```bash
 # Without ./
