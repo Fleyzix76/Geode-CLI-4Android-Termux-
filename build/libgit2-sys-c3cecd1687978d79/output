@@ -1,0 +1,418 @@
+cargo:rustc-check-cfg=cfg(libgit2_vendored,)
+cargo:rerun-if-env-changed=LIBGIT2_NO_VENDOR
+cargo:rerun-if-env-changed=LIBGIT2_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64-linux-android
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64_linux_android
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=LIBGIT2_STATIC
+cargo:rerun-if-env-changed=LIBGIT2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-linux-android
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_linux_android
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-linux-android
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_linux_android
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-linux-android
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_linux_android
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:warning=failed to probe system libgit2: 
+pkg-config exited with status code 1
+> PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags libgit2 'libgit2 >= 1.9.0' 'libgit2 < 1.10.0'
+
+The system library `libgit2` required by crate `libgit2-sys` was not found.
+The file `libgit2.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+The PKG_CONFIG_PATH environment variable is not set.
+
+HINT: if you have installed the library, try setting PKG_CONFIG_PATH to the directory containing `libgit2.pc`.
+
+cargo:rustc-cfg=libgit2_vendored
+libgit2/include/git2/annotated_commit.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/annotated_commit.h
+libgit2/include/git2/apply.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/apply.h
+libgit2/include/git2/attr.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/attr.h
+libgit2/include/git2/blame.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/blame.h
+libgit2/include/git2/blob.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/blob.h
+libgit2/include/git2/branch.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/branch.h
+libgit2/include/git2/buffer.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/buffer.h
+libgit2/include/git2/cert.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/cert.h
+libgit2/include/git2/checkout.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/checkout.h
+libgit2/include/git2/cherrypick.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/cherrypick.h
+libgit2/include/git2/clone.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/clone.h
+libgit2/include/git2/commit.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/commit.h
+libgit2/include/git2/common.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/common.h
+libgit2/include/git2/config.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/config.h
+libgit2/include/git2/cred_helpers.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/cred_helpers.h
+libgit2/include/git2/credential.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/credential.h
+libgit2/include/git2/credential_helpers.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/credential_helpers.h
+libgit2/include/git2/deprecated.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/deprecated.h
+libgit2/include/git2/describe.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/describe.h
+libgit2/include/git2/diff.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/diff.h
+libgit2/include/git2/email.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/email.h
+libgit2/include/git2/errors.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/errors.h
+libgit2/include/git2/experimental.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/experimental.h
+libgit2/include/git2/filter.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/filter.h
+libgit2/include/git2/global.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/global.h
+libgit2/include/git2/graph.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/graph.h
+libgit2/include/git2/ignore.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/ignore.h
+libgit2/include/git2/index.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/index.h
+libgit2/include/git2/indexer.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/indexer.h
+libgit2/include/git2/mailmap.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/mailmap.h
+libgit2/include/git2/merge.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/merge.h
+libgit2/include/git2/message.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/message.h
+libgit2/include/git2/net.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/net.h
+libgit2/include/git2/notes.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/notes.h
+libgit2/include/git2/object.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/object.h
+libgit2/include/git2/odb.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/odb.h
+libgit2/include/git2/odb_backend.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/odb_backend.h
+libgit2/include/git2/oid.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/oid.h
+libgit2/include/git2/oidarray.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/oidarray.h
+libgit2/include/git2/pack.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/pack.h
+libgit2/include/git2/patch.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/patch.h
+libgit2/include/git2/pathspec.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/pathspec.h
+libgit2/include/git2/proxy.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/proxy.h
+libgit2/include/git2/rebase.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/rebase.h
+libgit2/include/git2/refdb.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/refdb.h
+libgit2/include/git2/reflog.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/reflog.h
+libgit2/include/git2/refs.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/refs.h
+libgit2/include/git2/refspec.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/refspec.h
+libgit2/include/git2/remote.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/remote.h
+libgit2/include/git2/repository.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/repository.h
+libgit2/include/git2/reset.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/reset.h
+libgit2/include/git2/revert.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/revert.h
+libgit2/include/git2/revparse.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/revparse.h
+libgit2/include/git2/revwalk.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/revwalk.h
+libgit2/include/git2/signature.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/signature.h
+libgit2/include/git2/stash.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/stash.h
+libgit2/include/git2/status.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/status.h
+libgit2/include/git2/stdint.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/stdint.h
+libgit2/include/git2/strarray.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/strarray.h
+libgit2/include/git2/submodule.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/submodule.h
+libgit2/include/git2/sys/alloc.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/alloc.h
+libgit2/include/git2/sys/commit.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/commit.h
+libgit2/include/git2/sys/commit_graph.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/commit_graph.h
+libgit2/include/git2/sys/config.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/config.h
+libgit2/include/git2/sys/cred.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/cred.h
+libgit2/include/git2/sys/credential.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/credential.h
+libgit2/include/git2/sys/diff.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/diff.h
+libgit2/include/git2/sys/email.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/email.h
+libgit2/include/git2/sys/errors.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/errors.h
+libgit2/include/git2/sys/filter.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/filter.h
+libgit2/include/git2/sys/hashsig.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/hashsig.h
+libgit2/include/git2/sys/index.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/index.h
+libgit2/include/git2/sys/mempack.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/mempack.h
+libgit2/include/git2/sys/merge.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/merge.h
+libgit2/include/git2/sys/midx.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/midx.h
+libgit2/include/git2/sys/odb_backend.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/odb_backend.h
+libgit2/include/git2/sys/openssl.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/openssl.h
+libgit2/include/git2/sys/path.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/path.h
+libgit2/include/git2/sys/refdb_backend.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/refdb_backend.h
+libgit2/include/git2/sys/refs.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/refs.h
+libgit2/include/git2/sys/remote.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/remote.h
+libgit2/include/git2/sys/repository.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/repository.h
+libgit2/include/git2/sys/stream.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/stream.h
+libgit2/include/git2/sys/transport.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/sys/transport.h
+libgit2/include/git2/tag.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/tag.h
+libgit2/include/git2/trace.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/trace.h
+libgit2/include/git2/transaction.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/transaction.h
+libgit2/include/git2/transport.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/transport.h
+libgit2/include/git2/tree.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/tree.h
+libgit2/include/git2/types.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/types.h
+libgit2/include/git2/version.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/version.h
+libgit2/include/git2/worktree.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2/worktree.h
+libgit2/include/git2.h => /data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/include/git2.h
+OPT_LEVEL = Some(3)
+TARGET = Some(aarch64-linux-android)
+HOST = Some(aarch64-linux-android)
+cargo:rerun-if-env-changed=CC_aarch64-linux-android
+CC_aarch64-linux-android = None
+cargo:rerun-if-env-changed=CC_aarch64_linux_android
+CC_aarch64_linux_android = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+RUSTC_WRAPPER = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some(false)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_linux_android
+CFLAGS_aarch64_linux_android = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64-linux-android
+CFLAGS_aarch64-linux-android = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=libgit2/src/util/hash/openssl.c:237:6: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
+cargo:warning=  237 |         if (SHA256_Init(&ctx->c) != 1) {
+cargo:warning=      |             ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/sha.h:73:1: note: 'SHA256_Init' has been explicitly marked deprecated here
+cargo:warning=   73 | OSSL_DEPRECATEDIN_3_0 int SHA256_Init(SHA256_CTX *c);
+cargo:warning=      | ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/macros.h:229:31: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+cargo:warning=  229 | #define OSSL_DEPRECATEDIN_3_0 OSSL_DEPRECATED(3.0)
+cargo:warning=      |                               ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/macros.h:61:47: note: expanded from macro 'OSSL_DEPRECATED'
+cargo:warning=   61 | #define OSSL_DEPRECATED(since) __attribute__((deprecated))
+cargo:warning=      |                                               ^
+cargo:warning=libgit2/src/util/hash/openssl.c:249:6: warning: 'SHA256_Update' is deprecated [-Wdeprecated-declarations]
+cargo:warning=  249 |         if (SHA256_Update(&ctx->c, data, len) != 1) {
+cargo:warning=      |             ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/sha.h:74:1: note: 'SHA256_Update' has been explicitly marked deprecated here
+cargo:warning=   74 | OSSL_DEPRECATEDIN_3_0 int SHA256_Update(SHA256_CTX *c,
+cargo:warning=      | ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/macros.h:229:31: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+cargo:warning=  229 | #define OSSL_DEPRECATEDIN_3_0 OSSL_DEPRECATED(3.0)
+cargo:warning=      |                               ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/macros.h:61:47: note: expanded from macro 'OSSL_DEPRECATED'
+cargo:warning=   61 | #define OSSL_DEPRECATED(since) __attribute__((deprecated))
+cargo:warning=      |                                               ^
+cargo:warning=libgit2/src/util/hash/openssl.c:261:6: warning: 'SHA256_Final' is deprecated [-Wdeprecated-declarations]
+cargo:warning=  261 |         if (SHA256_Final(out, &ctx->c) != 1) {
+cargo:warning=      |             ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/sha.h:76:1: note: 'SHA256_Final' has been explicitly marked deprecated here
+cargo:warning=   76 | OSSL_DEPRECATEDIN_3_0 int SHA256_Final(unsigned char *md, SHA256_CTX *c);
+cargo:warning=      | ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/macros.h:229:31: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+cargo:warning=  229 | #define OSSL_DEPRECATEDIN_3_0 OSSL_DEPRECATED(3.0)
+cargo:warning=      |                               ^
+cargo:warning=/data/data/com.termux/files/usr/bin/../../usr/include/openssl/macros.h:61:47: note: expanded from macro 'OSSL_DEPRECATED'
+cargo:warning=   61 | #define OSSL_DEPRECATED(since) __attribute__((deprecated))
+cargo:warning=      |                                               ^
+cargo:warning=3 warnings generated.
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:rerun-if-env-changed=AR_aarch64-linux-android
+AR_aarch64-linux-android = None
+cargo:rerun-if-env-changed=AR_aarch64_linux_android
+AR_aarch64_linux_android = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+LLVM (http://llvm.org/):
+  LLVM version 21.1.8
+  Optimized build.
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64_linux_android
+ARFLAGS_aarch64_linux_android = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64-linux-android
+ARFLAGS_aarch64-linux-android = None
+LLVM (http://llvm.org/):
+  LLVM version 21.1.8
+  Optimized build.
+LLVM (http://llvm.org/):
+  LLVM version 21.1.8
+  Optimized build.
+cargo:rustc-link-lib=static=git2
+cargo:rustc-link-search=native=/data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out/build
+cargo:root=/data/data/com.termux/files/home/cli/target/aarch64-linux-android/release/build/libgit2-sys-c3cecd1687978d79/out
+cargo:rerun-if-changed=libgit2/include
+cargo:rerun-if-changed=libgit2/src
+cargo:rerun-if-changed=libgit2/deps
