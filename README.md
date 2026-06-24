@@ -11,12 +11,12 @@ termux-setup-storage
 # We transfer the binary to the Termux home directory
 mv ~/path/to/binary ~
 ```
-We grant permission to execute the binary:
+Grant permission to execute the binary:
 
 ```bash
 chmod +x geode
 ```
-And we run the binary:
+And run the binary:
 
 ```bash
 ./geode
