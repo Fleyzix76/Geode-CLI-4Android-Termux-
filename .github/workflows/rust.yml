@@ -31,8 +31,7 @@ jobs:
           target: aarch64-linux-android
 
 name: Build ${{ matrix.config.name }}
-runs-on: ${{ matrix.config.os }}
-
+runs-on: {{ matrix.config.os }}
     steps:
     - uses: actions/checkout@v4
 
