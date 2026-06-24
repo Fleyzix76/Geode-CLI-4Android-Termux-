@@ -32,7 +32,7 @@ jobs:
 
 name: Build ${{ matrix.config.name }}
 runs-on: {{ matrix.config.os }}
-    steps:
+steps:
     - uses: actions/checkout@v4
 
     - uses: dtolnay/rust-toolchain@stable
