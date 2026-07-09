@@ -11,6 +11,9 @@ termux-setup-storage
 # We transfer the binary to the Termux home directory
 mv ~/path/to/binary ~
 ```
+Or use curl;
+```
+curl -o geode.zip
 Grant permission to execute:
 
 ```bash
