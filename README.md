@@ -13,7 +13,12 @@ mv ~/path/to/binary ~
 ```
 Or use curl;
 ```
-curl -o geode.zip
+curl -o geode.zip https://github.com/Fleyzix76/Geode-CLI-4Android-Termux-/releases/download/port/geode-cli-v3.7.4-android64.zip
+# Unzip the archive using unzip
+unzip geode.zip
+# You can move the binary to your home directory
+mv geode/geode ~
+```
 Grant permission to execute:
 
 ```bash
