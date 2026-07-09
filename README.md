@@ -11,8 +11,8 @@ termux-setup-storage
 # We transfer the binary to the Termux home directory
 mv ~/path/to/binary ~
 ```
-Or use curl;
-```
+Or use curl:
+```bash
 curl -o geode.zip https://github.com/Fleyzix76/Geode-CLI-4Android-Termux-/releases/download/port/geode-cli-v3.7.4-android64.zip
 # Unzip the archive using unzip
 unzip geode.zip
